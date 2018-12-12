@@ -2,7 +2,6 @@ from rest_framework import viewsets
 
 from .serializers import JobsSerializer, UserSerializer, PosterSerializer
 from .models import Jobs, User, Poster
-from django.shortcuts import render
 
 class UserView(viewsets.ModelViewSet):
     queryset = User.objects.all()
