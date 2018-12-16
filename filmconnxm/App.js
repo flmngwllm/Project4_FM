@@ -7,9 +7,7 @@ export default class App extends React.Component {
     return (
 
 <UtilityThemeProvider>
-  <Box f={1} center>
-         <Text>Open up App.js to start working on your appd!</Text>
-  </Box>
+
   <Navigation />
 
   </UtilityThemeProvider>
