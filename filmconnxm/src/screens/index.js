@@ -7,9 +7,14 @@ const AuthNavigator = createStackNavigator({
 Login: {
     getScreen: () => require('./LoginScreen').default,
 
-}
-}
-)
+    },
+},
+    {
+    navigationOptions: {
+        header:null,
+    }
+
+    })
 
 const TabNavigator = createBottomTabNavigator({
     Home: {

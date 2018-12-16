@@ -1,6 +1,6 @@
-import {Image} from 'react-native';
 import React, {Component} from 'react';
-import {Box, Text} from 'react-native-design-utility'
+import {Box, Text} from 'react-native-design-utility';
+import StartUpLogo from '../commons/StartupLogo'
 
 
 
@@ -13,16 +13,16 @@ class SplashScreen extends Component {
    }
 
    checkAuth = () =>{
-       setTimeout(() => {
+   //     setTimeout(() => {
            this.props.navigation.navigate('Auth')
-   }, 3000)
+   // }, 2000)
    }
     render() {
 
 
         return (
             <Box f={1} center>
-                <Text>Splash Screen</Text>
+                <StartUpLogo/>
             </Box>
         );
     }
