@@ -1,21 +1,19 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { UtilityThemeProvider, Box, Text } from 'react-native-design-utility';
+import Navigation from './src/screens/'
 
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Open up App]]js working </Text>
-      </View>
+
+<UtilityThemeProvider>
+  <Box f={1} center>
+         <Text>Open up App.js to start working on your appd!</Text>
+  </Box>
+  <Navigation />
+
+  </UtilityThemeProvider>
     );
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'white',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
