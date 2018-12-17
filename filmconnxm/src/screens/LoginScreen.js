@@ -4,29 +4,35 @@ import StartupLogo from "../commons/StartupLogo";
 import LogButtons from "../commons/LogButtons";
 import {TouchableOpacity, Animated, Alert} from 'react-native'
 
+
+// const BoxAnimated = Animated.createAnimatedComponent(Box)
+
 class LoginScreen extends Component {
      state={
-         opacity: new Animated.Value(0)
+         opacity: new Animated.Value(0),
          position: new Animated.Value(0)
 
      }
 
 
      componentDidMount() {
-         this.opacityAnim();
+         Animated.parallel([this.positionAnim(), this.opacityAnim()]).start()
+
      }
 
     opacityAnim = () => {
          Animated.timing(this.state.opacity,{
              toValue: 1,
-             duration: 200
+             duration: 200,
+             delay: 100
          }).start()
      }
 
      positionAnim = () => {
-         Animated.timing(this.state.opacity,{
+         Animated.timing(this.state.position,{
              toValue: 1,
-             duration: 200
+             duration: 300,
+             useNativeDriver: true,
          }).start()
      }
 
@@ -37,16 +43,24 @@ class LoginScreen extends Component {
     render() {
         const {opacity} =this.state
 
+        const logoTranslate =this.state.position.interpolate({
+            inputRange: [0, 1],
+            outputRange: [150, 0]
+        })
+
+
         return (
             <Box f={1} center bg = "white">
-                <Animated.View style = {{flex: 1}}>
+                <Animated.View style = {{flex: 1, transform: [{
+                    translateX: logoTranslate
+                    }] }}>
                 <Box f={1} center>
                 <StartupLogo/>
                 </Box>
                 </Animated.View>
 
                 <Animated.View style={{flex: 0.9,  width :"100%", opacity}}>
-                <LogButtons onPress={this.onGoogleClick} type = "google">Contiue with Google</LogButtons>
+                <LogButtons onPress={this.onGoogleClick} type = "google">Continue with Google</LogButtons>
                 </Animated.View>
             </Box>
         );
