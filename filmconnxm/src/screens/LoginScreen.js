@@ -3,6 +3,7 @@ import {Box, Text} from 'react-native-design-utility'
 import StartupLogo from "../commons/StartupLogo";
 import LogButtons from "../commons/LogButtons";
 import {TouchableOpacity, Animated, Alert} from 'react-native'
+import {FacebookApi} from "../logapi/facebook";
 
 
 // const BoxAnimated = Animated.createAnimatedComponent(Box)
@@ -40,6 +41,16 @@ class LoginScreen extends Component {
          Alert.alert('Please Sign In')
      }
 
+       onFacebookClick  = async() => {
+         try {
+           const token = await FacebookApi.loginAsync()
+
+             console.log('token', token)
+         } catch (e) {
+             console.log('error', error)
+         }
+     }
+
     render() {
         const {opacity} =this.state
 
@@ -61,6 +72,8 @@ class LoginScreen extends Component {
 
                 <Animated.View style={{flex: 0.9,  width :"100%", opacity}}>
                 <LogButtons onPress={this.onGoogleClick} type = "google">Continue with Google</LogButtons>
+                    <LogButtons onPress={this.onFacebookClick} type = "facebook">Continue with Facebook</LogButtons>
+
                 </Animated.View>
             </Box>
         );
