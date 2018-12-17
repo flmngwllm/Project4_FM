@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {Box, Text} from 'react-native-design-utility'
+import {Box, Text} from "react-native-design-utility";
 
-class HomeScreen extends Component {
+class MessagesScreen extends Component {
      state={}
 
     render() {
@@ -15,4 +15,4 @@ class HomeScreen extends Component {
     }
 }
 
-export default HomeScreen;
+export default MessagesScreen;

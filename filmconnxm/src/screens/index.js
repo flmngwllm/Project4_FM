@@ -1,24 +1,36 @@
 import {createStackNavigator, createSwitchNavigator, createBottomTabNavigator} from 'react-navigation';
 import React, {Component} from 'react'
+import {NavigationService} from "../logapi/NavigationService";
 
 
-const AuthNavigator = createStackNavigator({
-
-Login: {
-    getScreen: () => require('./LoginScreen').default,
-
+const AuthNavigator = createStackNavigator(
+  {
+    Login: {
+      getScreen: () => require("./LoginScreen").default,
     },
-},
-    {
+  },
+  {
     navigationOptions: {
-        header:null,
-    }
-
-    })
+      header: null,
+    },
+  });
 
 const TabNavigator = createBottomTabNavigator({
     Home: {
         getScreen: () => require('./HomeScreen').default,
+
+    },
+
+    Jobs: {
+        getScreen: () => require('./JobsScreen').default,
+
+    },
+    Profile: {
+        getScreen: () => require('./ProfileScreen').default,
+
+    },
+    Messages: {
+        getScreen: () => require('./MessagesScreen').default,
 
     }
 
@@ -48,7 +60,9 @@ const AppNavigator = createSwitchNavigator(
 class Navigation extends Component{
     state = {}
     render(){
-        return <AppNavigator/>
+        return(
+        <AppNavigator ref={r => NavigationService.setTopLevelNavigator(r)} />
+        )
     }
 }
 
