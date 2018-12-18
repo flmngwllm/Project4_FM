@@ -1,4 +1,5 @@
-import {createStackNavigator, createSwitchNavigator, createBottomTabNavigator} from 'react-navigation';
+import { createBottomTabNavigator, createSwitchNavigator, createStackNavigator } from 'react-navigation';
+
 import React, {Component} from 'react'
 import {NavigationService} from "../logapi/NavigationService";
 
@@ -10,14 +11,15 @@ const AuthNavigator = createStackNavigator(
     },
   },
   {
-    navigationOptions: {
-      header: null,
-    },
+
   });
 
+
 const TabNavigator = createBottomTabNavigator({
+
     Home: {
-        getScreen: () => require('./HomeScreen').default,
+        getScreen: () => require("./HomeScreen").default,
+
 
     },
 
@@ -34,25 +36,33 @@ const TabNavigator = createBottomTabNavigator({
 
     }
 
-})
+
+});
 
 const MainNavigator = createStackNavigator({
     Tab: TabNavigator
-})
+// }, {
+//     navigationOptions : {
+//         headerStyle: {
+//             backgroundColor: theme.color.green,
+//         }
+//     }
+});
+
 
 
 const AppNavigator = createSwitchNavigator(
     {
-    Splash: {
-        getScreen: () => require('./SplashScreen').default,
+    Jobs: {
+        getScreen: () => require('./LoginScreen').default,
 
     },
+        Auth: AuthNavigator,
+        Main: MainNavigator,
 
-    Auth: AuthNavigator,
-    Main: MainNavigator,
 },
     {
-        initialRouteName: 'Splash'
+        initialRouteName: 'Jobs'
     }
 
 )

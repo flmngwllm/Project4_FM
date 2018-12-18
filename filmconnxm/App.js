@@ -4,6 +4,8 @@ import { UtilityThemeProvider, Box, Text } from 'react-native-design-utility';
 import Navigation from './src/screens/'
 import {images} from './src/constants/images'
 import {cacheImages} from './src/utils/cacheImages'
+import { theme } from './src/constants/theme';
+
 
 export default class App extends React.Component {
 
@@ -30,7 +32,7 @@ export default class App extends React.Component {
     if(!this.state.isReady){
 
       return(
-      <Box f={1} center bg = "black">
+      <Box f={1} center >
         <ActivityIndicator size = "large"/>
       </Box>
       );
@@ -38,7 +40,7 @@ export default class App extends React.Component {
 
     return (
 
-<UtilityThemeProvider>
+<UtilityThemeProvider theme={theme}>
 
   <Navigation />
 

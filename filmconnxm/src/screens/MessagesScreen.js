@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Box, Text} from "react-native-design-utility";
+import {StatusBar} from "react-native"
 
 class MessagesScreen extends Component {
      state={}
@@ -9,7 +10,8 @@ class MessagesScreen extends Component {
 
         return (
             <Box f={1} center>
-                <Text>HomeScreen </Text>
+                <StatusBar barStyle = "light-content"/>
+                <Text>MessageScreen </Text>
             </Box>
         );
     }
