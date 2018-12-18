@@ -2,6 +2,7 @@ import { createBottomTabNavigator, createSwitchNavigator, createStackNavigator }
 
 import React, {Component} from 'react'
 import {NavigationService} from "../logapi/NavigationService";
+import BarTab from "../components/BarTab";
 
 
 const AuthNavigator = createStackNavigator(
@@ -33,11 +34,14 @@ const TabNavigator = createBottomTabNavigator({
     },
     Messages: {
         getScreen: () => require('./MessagesScreen').default,
+    },
+  },
+  {
+    barTabComponent: props => <BarTab {...props} />,
+  },
+);
 
-    }
 
-
-});
 
 const MainNavigator = createStackNavigator({
     Tab: TabNavigator

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2684f9-8d31-4849-9895-a38de43512d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/filmconnxm/src/components/BarItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filmconnxm/src/components/BarTab.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmconnxm/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/filmconnxm/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmconnxm/src/logapi/NavigationService.js" beforeDir="false" afterPath="$PROJECT_DIR$/filmconnxm/src/logapi/NavigationService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmconnxm/src/screens/JobsScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/filmconnxm/src/screens/JobsScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmconnxm/src/screens/MessagesScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/filmconnxm/src/screens/MessagesScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmconnxm/src/screens/ProfileScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/filmconnxm/src/screens/ProfileScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmconnxm/src/screens/SettingsScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/filmconnxm/src/screens/SettingsScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmconnxm/src/screens/SplashScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/filmconnxm/src/screens/SplashScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/filmconnxm/src/screens/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/filmconnxm/src/screens/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,10 +31,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/SplashScreen.js">
+        <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/JobsScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="14" selection-start-line="15" selection-start-column="9" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="195">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -47,13 +42,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/JobsScreen.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filmconnxm/src/components/BarTab.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,13 +66,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="48" selection-end-column="8" />
+            <state relative-caret-position="424">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
               <folding>
                 <element signature="e#0#105#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filmconnxm/src/components/BarItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,18 +124,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/HomeScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/HelpScreen.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -160,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Project4_FM/settings.py" />
         <option value="$PROJECT_DIR$/main/serializers.py" />
         <option value="$PROJECT_DIR$/main/models.py" />
         <option value="$PROJECT_DIR$/main/admin.py" />
@@ -206,10 +200,12 @@
         <option value="$PROJECT_DIR$/filmconnxm/App.js" />
         <option value="$PROJECT_DIR$/filmconnxm/src/logapi/NavigationService.js" />
         <option value="$PROJECT_DIR$/filmconnxm/src/screens/MessagesScreen.js" />
-        <option value="$PROJECT_DIR$/filmconnxm/src/screens/index.js" />
         <option value="$PROJECT_DIR$/filmconnxm/src/screens/SettingsScreen.js" />
         <option value="$PROJECT_DIR$/filmconnxm/src/screens/ProfileScreen.js" />
         <option value="$PROJECT_DIR$/filmconnxm/src/screens/JobsScreen.js" />
+        <option value="$PROJECT_DIR$/filmconnxm/components/BarTab.js" />
+        <option value="$PROJECT_DIR$/filmconnxm/components/BarItem.js" />
+        <option value="$PROJECT_DIR$/filmconnxm/src/screens/index.js" />
       </list>
     </option>
   </component>
@@ -250,26 +246,6 @@
             <path>
               <item name="Project4_FM" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project4_FM" type="462c0819:PsiDirectoryNode" />
-              <item name="filmconnxm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project4_FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project4_FM" type="462c0819:PsiDirectoryNode" />
-              <item name="filmconnxm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="logapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project4_FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project4_FM" type="462c0819:PsiDirectoryNode" />
-              <item name="filmconnxm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project4_FM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project4_FM" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -289,9 +265,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/filmconnxm/src" />
       <recent name="$PROJECT_DIR$/filmconnxm/assets/images" />
       <recent name="$PROJECT_DIR$/filmconnxm/src/constants" />
-      <recent name="$PROJECT_DIR$/filmconnxm/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -346,12 +322,12 @@
       <workItem from="1544838754890" duration="14185000" />
       <workItem from="1544963348053" duration="24706000" />
       <workItem from="1545011935320" duration="24116000" />
-      <workItem from="1545094428706" duration="1706000" />
+      <workItem from="1545094428706" duration="3262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93618000" />
+    <option name="totallyTimeSpent" value="95174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -407,8 +383,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/filmconnx/assets/images/splash.png" />
-    <entry file="file://$PROJECT_DIR$/filmconnx/assets/images/robot-prod.png" />
     <entry file="file://$PROJECT_DIR$/filmconnx/assets/images/robot-dev.png" />
     <entry file="file://$PROJECT_DIR$/filmconnx/constants/Layout.js" />
     <entry file="file://$PROJECT_DIR$/filmconnx/constants/Colors.js" />
@@ -578,16 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="48" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/LoginScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -634,6 +598,36 @@
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filmconnxm/src/components/BarItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filmconnxm/src/components/BarTab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
