@@ -35,10 +35,10 @@ const TabNavigator = createBottomTabNavigator({
     Messages: {
         getScreen: () => require('./MessagesScreen').default,
     },
-  },
-  {
+
+}, {
     barTabComponent: props => <BarTab {...props} />,
-  },
+    }
 );
 
 

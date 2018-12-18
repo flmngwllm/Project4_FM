@@ -1,7 +1,7 @@
 import React, {PureComponent} from 'react'
 import {Box} from 'react-native-design-utility'
 
-class BarItem extends Component {
+class BarItem extends PureComponent {
     render() {
         return (
             <Box>
