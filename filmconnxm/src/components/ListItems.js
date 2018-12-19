@@ -1,9 +1,25 @@
 import React, { Component } from 'react';
-import { Container, Header, Content, List, ListItem, Left, Body, Right, Thumbnail, Text } from 'native-base';
+import {
+    Container,
+    Header,
+    Content,
+    List,
+    ListItem,
+    Left,
+    Body,
+    Right,
+    Thumbnail,
+    Text,
+    StyleProvider
+} from 'native-base';
+import getTheme from "../../native-base-theme/components";
+import material from "../../native-base-theme/variables/material";
 
 export default class ListItems extends Component {
   render() {
     return (
+
+         <StyleProvider style={getTheme(material)}>
       <Container>
         <Header />
 
@@ -24,6 +40,7 @@ export default class ListItems extends Component {
           </List>
         </Content>
       </Container>
+         </StyleProvider>
 
     );
   }

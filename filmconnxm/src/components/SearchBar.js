@@ -14,7 +14,7 @@ import {
     Body,
     Right,
     Thumbnail,
-    Content, Tabs, Tab, TabHeading
+    Content, Tabs, Tab, TabHeading, StyleProvider
 } from 'native-base';
 import {Box} from 'react-native-design-utility'
 
@@ -23,6 +23,8 @@ import MatchesScreen from "./MatchesScreen";
 import AppliedJobsScreen from "./AppliedJobsScreen";
 import SavedJobsScreen from "./SavedJobsScreen";
 import ListItems from "./ListItems";
+import getTheme from "../../native-base-theme/components";
+import material from "../../native-base-theme/variables/material";
 
 export default class SearchBar extends Component {
 
@@ -46,6 +48,7 @@ constructor(props) {
       return <Expo.AppLoading />;
     }
     return (
+        <StyleProvider style={getTheme(material)}>
       <Container>
         <Header searchBar rounded >
           <Item>
@@ -71,6 +74,7 @@ constructor(props) {
                      </Tab>
                  </Tabs>
       </Container>
+        </StyleProvider>
 
 
 

@@ -105,7 +105,7 @@ export default {
   checkboxTickColor: "#fff",
 
   // Color
-  brandPrimary: "#3F51B5",
+  brandPrimary: "#17566A",
   brandInfo: "#62B1F6",
   brandSuccess: "#5cb85c",
   brandDanger: "#d9534f",
@@ -114,7 +114,7 @@ export default {
   brandLight: "#f4f4f4",
 
   //Container
-  containerBgColor: "#fff",
+  containerBgColor: "#17566A",
 
   //Date Picker
   datePickerTextColor: "#000",
@@ -148,8 +148,8 @@ export default {
   tabActiveBgColor: "#3F51B5",
 
   // Header
-  toolbarBtnColor: "#fff",
-  toolbarDefaultBg: "#3F51B5",
+  toolbarBtnColor: "#54B0B9",
+  toolbarDefaultBg: "#17566A",
   toolbarHeight: 56,
   toolbarSearchIconSize: 23,
   toolbarInputColor: "#fff",
@@ -202,7 +202,7 @@ export default {
   listItemPadding: 12,
   listNoteColor: "#808080",
   listNoteSize: 13,
-  listItemSelected: "#3F51B5",
+  listItemSelected: "#fff",
 
   // Progress Bar
   defaultProgressColor: "#E4202D",
@@ -229,8 +229,8 @@ export default {
   inverseSpinnerColor: "#1A191B",
 
   // Tab
-  tabDefaultBg: "#3F51B5",
-  topTabBarTextColor: "#b3c7f9",
+  tabDefaultBg: "#17566A",
+  topTabBarTextColor: "#fff",
   topTabBarActiveTextColor: "#fff",
   topTabBarBorderColor: "#fff",
   topTabBarActiveBorderColor: "#fff",

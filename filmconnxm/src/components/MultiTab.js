@@ -1,26 +1,22 @@
 import React, {Component} from 'react';
-import {Container, Header, Tab, TabHeading, Tabs, Text} from "native-base";
+import {Container, Header, Tab, TabHeading, Tabs, Text, StyleProvider} from "native-base";
 import MatchesScreen from "./MatchesScreen.js";
 import AppliedJobsScreen from "./AppliedJobsScreen";
 import SavedJobsScreen from "./SavedJobsScreen";
-import {StyleSheet} from "react-native"
+import material from "../../native-base-theme/variables/material"
+import getTheme from '../../native-base-theme/components';
 
 
 
-const styles = StyleSheet.create({
-  bigblue: {
-    backgroundColor: 'blue',
 
-  },
 
-});
 
 class MultiTab extends Component {
     render() {
         return (
-
-           <Container>
-                 <Header style={styles.bigblue }hasTabs/>
+    <StyleProvider style={getTheme(material)}>
+        <Container>
+                 <Header hasTabs/>
                  <Tabs>
                      <Tab heading={<TabHeading><Text>Matches</Text></TabHeading>}>
                          <MatchesScreen/>
@@ -33,6 +29,7 @@ class MultiTab extends Component {
                      </Tab>
                  </Tabs>
              </Container>
+        </StyleProvider>
         );
     }
 }

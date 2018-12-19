@@ -11,7 +11,7 @@ class MessagesScreen extends Component {
         return (
             <Box f={1} center>
                 <StatusBar barStyle = "light-content"/>
-                <Text>MessageScreenbhkjhk </Text>
+                <Text>MessageScreen </Text>
             </Box>
         );
     }
