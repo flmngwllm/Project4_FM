@@ -47,7 +47,7 @@ constructor(props) {
     }
     return (
       <Container>
-        <Header searchBar rounded>
+        <Header searchBar rounded >
           <Item>
             <Icon name="ios-search" />
             <Input placeholder="Search" />

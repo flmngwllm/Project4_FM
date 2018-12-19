@@ -27,6 +27,7 @@ const JobsStack = createStackNavigator(
 //         Description: {
 //             getScreen: () => require("./JobDescription").default,
 //         },
+
     }
 );
 
@@ -62,7 +63,7 @@ const MainNavigator = createStackNavigator({
 
 }, {
 
-    
+
 });
 
 

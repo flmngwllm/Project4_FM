@@ -61,7 +61,7 @@ class LoginScreen extends Component {
 
 
         return (
-            <Box f={1} center bg = "white">
+            <Box f={1} center bg = "filmblue">
                 <Animated.View style = {{flex: 1, transform: [{
                     translateX: logoTranslate
                     }] }}>

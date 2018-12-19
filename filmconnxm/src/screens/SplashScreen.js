@@ -21,7 +21,7 @@ class SplashScreen extends Component {
 
 
         return (
-            <Box f={1} center>
+            <Box f={1} center >
                 <StartUpLogo/>
             </Box>
         );

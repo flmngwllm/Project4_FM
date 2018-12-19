@@ -8,6 +8,7 @@
     "debug": "open 'rndebugger://set-debugger-loc?host=localhost&port=19001'"
   },
   "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
     "expo": "^31.0.2",
     "native-base": "^2.8.2",
     "react": "16.5.0",
