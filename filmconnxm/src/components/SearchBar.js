@@ -14,10 +14,15 @@ import {
     Body,
     Right,
     Thumbnail,
-    Content
+    Content, Tabs, Tab, TabHeading
 } from 'native-base';
+import {Box} from 'react-native-design-utility'
 
 import Expo from "expo";
+import MatchesScreen from "./MatchesScreen";
+import AppliedJobsScreen from "./AppliedJobsScreen";
+import SavedJobsScreen from "./SavedJobsScreen";
+import ListItems from "./ListItems";
 
 export default class SearchBar extends Component {
 
@@ -52,21 +57,19 @@ constructor(props) {
             <Text>Search</Text>
           </Button>
         </Header>
-         <List>
-            <ListItem avatar>
-              <Left>
-                <Thumbnail source={{ uri: 'Image URL' }} />
-              </Left>
-              <Body>
-                <Text>Kumar Pratik</Text>
-                <Text note>Doing what you like will always keep you happy . .</Text>
-              </Body>
-              <Right>
-                <Text note>3:43 pm</Text>
-              </Right>
-            </ListItem>
-          </List>
-        <Text>bkjbkll;l;</Text>
+
+
+           <Tabs>
+                     <Tab heading={<TabHeading><Text>Matches</Text></TabHeading>}>
+                         <MatchesScreen/>
+                     </Tab>
+                     <Tab heading={<TabHeading><Text>Applied</Text></TabHeading>}>
+                         <AppliedJobsScreen/>
+                     </Tab>
+                     <Tab heading={<TabHeading><Text>Saved</Text></TabHeading>}>
+                         <SavedJobsScreen/>
+                     </Tab>
+                 </Tabs>
       </Container>
 
 

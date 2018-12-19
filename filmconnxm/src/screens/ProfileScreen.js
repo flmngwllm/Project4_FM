@@ -3,12 +3,12 @@ import {Text, Box} from "react-native-design-utility";
 import {StatusBar} from "react-native"
 
 
+
 class ProfileScreen extends Component {
     render() {
         return (
-           <Box>
-               <StatusBar barStyle = "light-content"/>
-
+    <Box f={1} center>
+    <StatusBar barStyle = "light-content"/>
                <Text>
                    JobTitle(s)
                </Text>

@@ -3,6 +3,7 @@ import { createBottomTabNavigator, createSwitchNavigator, createStackNavigator }
 import React, {Component} from 'react'
 import {NavigationService} from "../logapi/NavigationService";
 import BarTab from "../components/BarTab";
+import {theme} from "../constants/theme"
 
 
 const AuthNavigator = createStackNavigator(
@@ -12,28 +13,41 @@ const AuthNavigator = createStackNavigator(
     },
   },
   {
-
+    navigationOptions: {
+      header: null,
+    },
   });
 
+const JobsStack = createStackNavigator(
+    {
+        Jobs: {
+            getScreen: () => require("./JobsScreen").default,
+        },
+//
+//         Description: {
+//             getScreen: () => require("./JobDescription").default,
+//         },
+    }
+);
 
 const TabNavigator = createBottomTabNavigator({
 
-    Home: {
-        getScreen: () => require("./HomeScreen").default,
 
 
-    },
+   Jobs: JobsStack,
 
-    Jobs: {
-        getScreen: () => require('./JobsScreen').default,
-
-    },
     Profile: {
         getScreen: () => require('./ProfileScreen').default,
 
     },
     Messages: {
         getScreen: () => require('./MessagesScreen').default,
+    },
+
+    Connections: {
+        getScreen: () => require('./ConnectionsScreen').default,
+
+
     },
 
 }, {
@@ -45,19 +59,17 @@ const TabNavigator = createBottomTabNavigator({
 
 const MainNavigator = createStackNavigator({
     Tab: TabNavigator
-// }, {
-//     navigationOptions : {
-//         headerStyle: {
-//             backgroundColor: theme.color.green,
-//         }
-//     }
+
+}, {
+
+    
 });
 
 
 
 const AppNavigator = createSwitchNavigator(
     {
-    Jobs: {
+    Login: {
         getScreen: () => require('./LoginScreen').default,
 
     },
@@ -66,10 +78,11 @@ const AppNavigator = createSwitchNavigator(
 
 },
     {
-        initialRouteName: 'Jobs'
+        initialRouteName: 'Login'
     }
 
 )
+
 
 class Navigation extends Component{
     state = {}
