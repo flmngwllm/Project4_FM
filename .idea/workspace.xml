@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2684f9-8d31-4849-9895-a38de43512d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/filmconnxm/native-base-theme/variables/material.js" beforeDir="false" afterPath="$PROJECT_DIR$/filmconnxm/native-base-theme/variables/material.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmconnxm/native-base-theme/variables/variables.js" beforeDir="false" afterPath="$PROJECT_DIR$/filmconnxm/native-base-theme/variables/variables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmconnxm/src/components/ListItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/filmconnxm/src/components/ListItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmconnxm/src/components/MultiTab.js" beforeDir="false" afterPath="$PROJECT_DIR$/filmconnxm/src/components/MultiTab.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmconnxm/src/components/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/filmconnxm/src/components/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmconnxm/src/screens/MessagesScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/filmconnxm/src/screens/MessagesScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,57 +15,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/variables/variables.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/LoginScreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1476">
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/variables/platform.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="116" column="25" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="25" />
-              <folding>
-                <element signature="e#10#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filmconnxm/src/components/MatchesScreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="742">
+              <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/variables/material.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="204" column="25" selection-start-line="204" selection-start-column="25" selection-end-line="204" selection-end-column="25" />
-              <folding>
-                <element signature="e#10#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/components/CheckBox.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -124,6 +78,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/components/Content.js">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/JobDesription.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="20" selection-start-line="19" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -354,12 +320,12 @@
       <workItem from="1544963348053" duration="24706000" />
       <workItem from="1545011935320" duration="24116000" />
       <workItem from="1545094428706" duration="11028000" />
-      <workItem from="1545165797133" duration="29603000" />
+      <workItem from="1545165797133" duration="29742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132543000" />
+    <option name="totallyTimeSpent" value="132682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -617,16 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/JobDesription.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/components/Form.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -670,16 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/LoginScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/components/Fab.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -692,6 +638,19 @@
     <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/variables/commonColor.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/components/Tab.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filmconnxm/src/components/MatchesScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/variables/platform.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
@@ -702,21 +661,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/variables/material.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="204" column="25" selection-start-line="204" selection-start-column="25" selection-end-line="204" selection-end-column="25" />
+          <folding>
+            <element signature="e#10#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/variables/variables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1476">
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/components/CheckBox.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/components/Content.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/components/Tab.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/JobsScreen.js">
+    <entry file="file://$PROJECT_DIR$/filmconnxm/src/components/ListItems.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -741,42 +714,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filmconnxm/src/components/MatchesScreen.js">
+    <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/components/Content.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/JobDesription.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <caret line="19" column="20" selection-start-line="19" selection-end-line="20" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filmconnxm/src/components/ListItems.js">
+    <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/JobsScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="360">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="26" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/variables/variables.js">
+    <entry file="file://$PROJECT_DIR$/filmconnxm/src/screens/LoginScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1476">
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        <state relative-caret-position="742">
+          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filmconnxm/native-base-theme/variables/material.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="204" column="25" selection-start-line="204" selection-start-column="25" selection-end-line="204" selection-end-column="25" />
-          <folding>
-            <element signature="e#10#36#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
